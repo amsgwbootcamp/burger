@@ -1,0 +1,24 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "This is the Eat - Da - Burger application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amsgwbootcamp/burger.git"
+  },
+  "author": "Angela Stevenson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amsgwbootcamp/burger/issues"
+  },
+  "homepage": "https://github.com/amsgwbootcamp/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
