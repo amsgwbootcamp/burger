@@ -24,4 +24,17 @@ input, .mainBtn {
     font-family: 'Homemade Apple', cursive;
     font-size: 20px;
     color: red;
-}    
+}   
+
+.hide {
+    color: burlywood;
+}
+
+.alignText {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.extraSpace {
+    padding-right: 10px;
+}

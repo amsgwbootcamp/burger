@@ -1,13 +1,22 @@
-<div>
-   	{{#each burgers}}
-   		{{#unless devoured}}
-		   	{{burger_name}}
-			<button class="devoured" data-id="{{id}}" data-newsleep="{{devoured}}">Devour Me!!!!
-			</button>
-			<br>
-   		{{/unless}}
+<div class="container">
+
+{{#each burgers}}
+   		{{#if devoured}}
+			<div class="row">
+			   <div class="col hide">Some text here</div>
+               <div class="col">{{burger_name}}</div>
+       		</div>
+        {{else}}
+		 <div class="row">
+            <div class="col alignText">{{burger_name}} &nbsp &nbsp <button class="devoured" data-id="{{id}}" data-newsleep="{{devoured}}">Devour Me!!!!
+			</button></div>
+        	<div class="col hide">Some text here</div>
+		 </div>	
+   		{{/if}}
   	{{/each}}
-</div>
+</div>	  
+<br>
+<br> 
 <form class="create-form">
   	<div class="form-group">
     	<input type="text" id="ca" name="burger_name">
