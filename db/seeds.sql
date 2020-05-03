@@ -1,7 +1,8 @@
 USE burgers_db;
+DELETE FROM burgers;
 
-INSERT INTO burgers(burger_name) VALUES ("Chicken Bacon Sandwich");
-INSERT INTO burgers(burger_name, devoured) VALUE ("Bacon Cheese Burger", true);
-INSERT INTO burgers(burger_name) VALUES ("Plain Hamburger");
+INSERT INTO burgers(burger_name, devoured) VALUES ("Chicken Bacon Sandwich", false);
+INSERT INTO burgers(burger_name, devoured) VALUES ("Bacon Cheese Burger", false);
+INSERT INTO burgers(burger_name, devoured) VALUES ("Plain Hamburger", false);
 
 select * from burgers;
