@@ -12,7 +12,7 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
-* Your app will store every burger in a database, whether devoured or not.
+* The app stores every burger in the database, whether devoured or not.
 
 
 #### Directory structure
@@ -58,7 +58,5 @@ All the recommended files and directories from the steps above should look like 
 #### Instruction to Execute
 
 To execute this application, please type server.js in the burger directory. 
-
-Go to the browser and enter the following web address: 
 
 Hope you enjoy the application.  It was a very good assignment which really emphasized what we learned in class.  
